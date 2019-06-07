@@ -1,9 +1,22 @@
 // Mixins in here
-@bcolor: #4CAF50;
+@bcolor: darkcyan;
 
 .button-look {
-    // border-radius: 10%;
-    // background-color:darkcyan;
-    color: red;
-    // border: 2px solid @bcolor;
+    border-radius: 15px;
+    width: 80%;
+    background-color:darkcyan;
+    padding: @standard_padding;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid @bcolor;
 }
+
+.flex-column-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
